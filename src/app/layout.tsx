@@ -1,4 +1,3 @@
-```tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -17,12 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nexora Digital | Ankara Web Tasarım ve AI Chatbot Çözümleri",
   description:
-    "Ankara'da işletmeler ve bireyler için web sitesi geliştirme, web sitesi yenileme ve yapay zeka chatbot kurulumu hizmetleri",
-
+    "Ankara'da işletmeler ve bireyler için web sitesi geliştirme, web sitesi yenileme ve yapay zeka chatbot kurulumu hizmetleri.",
   verification: {
     google: "becMhwk6glbkjifc-CcALu_w_HYMBF5kEO1nx5OxBn8",
   },
-
   keywords: [
     "Ankara Web Tasarım",
     "Web Sitesi Yaptırma",
@@ -73,4 +70,3 @@ export default function RootLayout({
     </html>
   );
 }
-```
