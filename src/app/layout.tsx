@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nexora Digital | Ankara Web Tasarım ve AI Chatbot Çözümleri",
   description:
-    "Ankara'da işletmeler ve bireyler için web sitesi geliştirme, web sitesi yenileme ve yapay zeka chatbot kurulumu hizmetleri.",
+    "Ankara'da işletmeler ve bireyler için web sitesi geliştirme, web sitesi yenileme ve yapay zeka chatbot kurulumu hizmetleri",
 
   verification: {
     google: "becMhwk6glbkjifc-CcALu_w_HYMBF5kEO1nx5OxBn8",
@@ -31,13 +31,10 @@ export const metadata: Metadata = {
     "Profesyonel Web Sitesi",
     "İşletme Web Sitesi",
   ],
-
   authors: [{ name: "Nexora Digital" }],
-
   icons: {
     icon: "/logo.svg",
   },
-
   openGraph: {
     title: "Nexora Digital | Ankara Web Tasarım ve AI Chatbot Çözümleri",
     description:
@@ -46,7 +43,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
   },
-
   twitter: {
     card: "summary_large_image",
     title: "Nexora Digital | Ankara Web Tasarım ve AI Chatbot Çözümleri",
@@ -78,4 +74,3 @@ export default function RootLayout({
   );
 }
 ```
-
