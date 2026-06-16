@@ -1,3 +1,4 @@
+```tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -17,6 +18,11 @@ export const metadata: Metadata = {
   title: "Nexora Digital | Ankara Web Tasarım ve AI Chatbot Çözümleri",
   description:
     "Ankara'da işletmeler ve bireyler için web sitesi geliştirme, web sitesi yenileme ve yapay zeka chatbot kurulumu hizmetleri.",
+
+  verification: {
+    google: "becMhwk6glbkjifc-CcALu_w_HYMBF5kEO1nx5OxBn8",
+  },
+
   keywords: [
     "Ankara Web Tasarım",
     "Web Sitesi Yaptırma",
@@ -25,10 +31,13 @@ export const metadata: Metadata = {
     "Profesyonel Web Sitesi",
     "İşletme Web Sitesi",
   ],
+
   authors: [{ name: "Nexora Digital" }],
+
   icons: {
     icon: "/logo.svg",
   },
+
   openGraph: {
     title: "Nexora Digital | Ankara Web Tasarım ve AI Chatbot Çözümleri",
     description:
@@ -37,12 +46,12 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Nexora Digital | Ankara Web Tasarım ve AI Chatbot Çözümleri",
     description:
       "Ankara'da işletmeler ve bireyler için web sitesi geliştirme, web sitesi yenileme ve yapay zeka chatbot kurulumu hizmetleri.",
-    <meta name="google-site-verification" content="becMhwk6glbkjifc-CcALu_w_HYMBF5kEO1nx5OxBn8" />
   },
 };
 
@@ -68,3 +77,5 @@ export default function RootLayout({
     </html>
   );
 }
+```
+
