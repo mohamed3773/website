@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     "Yapay Zeka Chatbot",
     "Profesyonel Web Sitesi",
     "İşletme Web Sitesi",
+    "web sitesi yaptırma",
+    "web sitesi düzenleme",
+    "AI chatbot kurulumu",
+    "yapay zeka chatbot",
+    "web sitesi geliştirme",
   ],
   authors: [{ name: "Nexora Digital" }],
   icons: {
