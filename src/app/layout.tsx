@@ -44,7 +44,7 @@ export const metadata: Metadata = {
       "Ankara'da işletmeler ve bireyler için web sitesi geliştirme, web sitesi yenileme ve yapay zeka chatbot kurulumu hizmetleri.",
   },
 };
-
+<meta name="google-site-verification" content="becMhwk6glbkjifc-CcALu_w_HYMBF5kEO1nx5OxBn8" />
 export default function RootLayout({
   children,
 }: Readonly<{
